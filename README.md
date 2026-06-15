@@ -59,4 +59,4 @@ A secure, Arduino‑based wireless system that allows authorized traffic police 
 ## 👤 Author
 
 **Sunkari Mula Vishnu Veeranjan**  
-[*([GitHub](https://github.com/MULAVISHNU))*]
+[*([Mula Sunkari](https://github.com/MULAVISHNU))*]
