@@ -2,11 +2,8 @@
 
 Welcome to my projects portfolio. This repository serves as a centralized archive of comprehensive project reports, and technical documentation
 
-<<<<<<< HEAD
-### 1. Secure Wireless Controller for Handheld Operator of Traffic Control System
-=======
+
 # 1. Secure Wireless Controller for Handheld Operator of Traffic Control System
->>>>>>> 5843994f1b273c4f317c35c655b42fe40b549fa5
 
 A secure, Arduino‑based wireless system that allows authorized traffic police to manually control traffic signals during peak hours. The system integrates fingerprint authentication, IR communication, and an automated barrier mechanism to improve traffic flow and prevent signal jumping.
 
@@ -64,12 +61,10 @@ A secure, Arduino‑based wireless system that allows authorized traffic police 
 [*([Mula Sunkari](https://github.com/MULAVISHNU))*]
 # 2 Reversible Data Hiding Based on Interpolation Techniques
 
-<<<<<<< HEAD
 =======
 
 # 2 Reversible Data Hiding Based on Interpolation Techniques
 
->>>>>>> 5843994f1b273c4f317c35c655b42fe40b549fa5
 A MATLAB-based implementation of a **Reversible Data Hiding (RDH)** scheme that securely embeds a secret image into a cover image using **image interpolation** and **pixel permutation techniques**. The proposed method enables the complete recovery of both the original cover image and the hidden secret image without any permanent distortion.
 
 ---
@@ -183,14 +178,7 @@ The proposed algorithm provides:
 
 ✔ Accurate extraction of hidden data
 
-<<<<<<< HEAD
-✔ Improved embedding capacity using interpolation
 
-✔ High PSNR and SSIM values
-
-=======
->>>>>>> 5843994f1b273c4f317c35c655b42fe40b549fa5
----
 
 ## Applications
 
@@ -208,10 +196,7 @@ The proposed algorithm provides:
 - Adaptive interpolation algorithms
 - Color image support
 - Multi-image embedding
-<<<<<<< HEAD
-- Deep Learning-based reversible data hiding
-- GPU acceleration
-- Real-time implementation
+
 
 ## Author
 
@@ -401,3 +386,197 @@ Hochschule Bremen
 ---
 
 
+# 4. Low Noise Amplifier (LNA) Design Using Microstrip Line Technology
+
+A microwave circuit design project implementing a **4.5 GHz Low Noise Amplifier (LNA)** using **microstrip line technology** on a **Rogers RO4003C substrate**. The amplifier is designed around the **Infineon BFP640 bipolar transistor**, with impedance matching achieved through Smith Chart analysis and distributed microstrip matching networks. The complete workflow includes theoretical calculations, transmission-line design, full-wave simulation in **AWR Microwave Office**, PCB fabrication, and experimental validation using a Vector Network Analyzer (VNA).
+
+---
+
+## Features
+
+### 📡 4.5 GHz Low Noise Amplifier
+- Designed for RF front-end applications operating near **4.5 GHz**.
+- Achieves a peak transducer gain of **15.6 dB**.
+- Bandwidth exceeding **100 MHz**.
+
+### 📐 Microstrip Matching Network
+- Input and output matching using distributed microstrip lines.
+- Smith Chart-based impedance matching.
+- Conversion of lumped matching networks to microstrip structures.
+
+### ⚙️ Stable Amplifier Design
+- Unconditionally stable across the operating frequency.
+- Proper source and load impedance matching.
+- Optimized return loss below **−15 dB**.
+
+### 🧪 Simulation & Experimental Validation
+- Circuit designed and optimized in **AWR Microwave Office**.
+- PCB fabricated and tested using a **Vector Network Analyzer (VNA)**.
+- Measured results closely match theoretical and simulated performance.
+
+---
+
+## Workflow
+
+1. Obtain transistor S-parameters at **4.5 GHz**.
+2. Calculate source and load reflection coefficients (ΓS and ΓL).
+3. Design impedance matching networks using the Smith Chart.
+4. Convert lumped matching networks into microstrip transmission lines.
+5. Simulate the amplifier using **AWR Microwave Office**.
+6. Design the PCB layout with microstrip technology.
+7. Fabricate and assemble the amplifier.
+8. Measure S-parameters using a Vector Network Analyzer.
+9. Compare measured results with simulation.
+
+---
+
+## Technologies Used
+
+- AWR Microwave Office
+- TXLINE
+- Smith Chart
+- Rogers RO4003C Substrate
+- Microstrip Line Technology
+- RF PCB Design
+- Vector Network Analyzer (VNA)
+- Microwave Circuit Design
+
+---
+
+## Hardware Components
+
+- Infineon BFP640 Bipolar RF Transistor
+- Rogers RO4003C PCB
+- RF Transmission Lines
+- Open-Circuit Microstrip Stubs
+- DC Bias Network
+- Passive RF Components
+- SMA Connectors
+
+---
+
+## Project Structure
+
+```text
+├── Design Calculations
+│   ├── S-Parameter Analysis
+│   ├── Smith Chart Design
+│   ├── Reflection Coefficient Calculations
+│   └── Transmission Line Dimensions
+│
+├── Simulation
+│   ├── AWR Schematic
+│   ├── Transmission Line Model
+│   ├── Microstrip Layout
+│   └── Frequency Response
+│
+├── PCB Design
+│   ├── Layout
+│   ├── Fabrication
+│   └── Assembly
+│
+├── Experimental Validation
+│   ├── VNA Measurements
+│   ├── Gain Analysis
+│   └── Result Comparison
+│
+├── Documentation
+    └── Project Report.pdf
+
+```
+
+---
+
+## Performance
+
+### RF Performance
+
+| Parameter | Value |
+|-----------|------:|
+| Operating Frequency | **4.5 GHz** |
+| Peak Gain (S21) | **15.6 dB** |
+| Center Frequency | **4499 MHz** |
+| Bandwidth | **>100 MHz** |
+| Input Return Loss (S11) | **< −15 dB** |
+| Output Return Loss (S22) | **< −15 dB** |
+| Stability | **Unconditionally Stable** |
+
+---
+
+## Simulation Results
+
+The amplifier was validated through:
+
+- ✅ S-Parameter Analysis
+- ✅ Gain (S21)
+- ✅ Input Matching (S11)
+- ✅ Output Matching (S22)
+- ✅ Frequency Sweep
+- ✅ Bandwidth Analysis
+- ✅ Stability Verification
+- ✅ Microstrip Layout Simulation
+
+---
+
+## Experimental Validation
+
+The fabricated PCB was tested using:
+
+- Vector Network Analyzer (VNA)
+- 5 V DC Bias Supply
+- RF Measurement Setup
+
+Experimental measurements confirmed:
+
+- Peak gain near **15.6 dB**
+- Center frequency around **4.5 GHz**
+- Bandwidth greater than **100 MHz**
+- Excellent agreement between theoretical, simulated, and measured results
+
+---
+
+## Applications
+
+- RF Front-End Receivers
+- Satellite Communication
+- Wireless Communication Systems
+- Radar Systems
+- IoT RF Modules
+- Microwave Instrumentation
+- Signal Reception Systems
+
+---
+
+## Future Improvements
+
+- Multi-band LNA design
+- Lower noise figure optimization
+- MMIC implementation
+- Higher-frequency operation (5G/mmWave)
+- Automatic impedance matching
+- Thermal optimization
+- Integrated RF front-end module
+
+---
+
+## Results
+
+- ✔ Designed a **4.5 GHz Low Noise Amplifier** using microstrip technology.
+- ✔ Achieved **15.6 dB peak transducer gain**.
+- ✔ Obtained bandwidth exceeding **100 MHz**.
+- ✔ Achieved input and output return losses below **−15 dB**.
+- ✔ Verified unconditional stability.
+- ✔ Successfully fabricated and experimentally validated the PCB prototype.
+
+---
+
+## Authors
+
+**Mula Vishnu Veeranjan Sunkari**  
+Hochschule Bremen
+
+**Aditya Rao**  
+Hochschule Bremen
+
+**Anagha Varghese**  
+Hochschule Bremen
