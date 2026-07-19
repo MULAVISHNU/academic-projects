@@ -2,7 +2,11 @@
 
 Welcome to my projects portfolio. This repository serves as a centralized archive of comprehensive project reports, and technical documentation
 
+<<<<<<< HEAD
 ### 1. Secure Wireless Controller for Handheld Operator of Traffic Control System
+=======
+# 1. Secure Wireless Controller for Handheld Operator of Traffic Control System
+>>>>>>> 5843994f1b273c4f317c35c655b42fe40b549fa5
 
 A secure, Arduino‑based wireless system that allows authorized traffic police to manually control traffic signals during peak hours. The system integrates fingerprint authentication, IR communication, and an automated barrier mechanism to improve traffic flow and prevent signal jumping.
 
@@ -56,6 +60,12 @@ A secure, Arduino‑based wireless system that allows authorized traffic police 
 ---
 # 2 Reversible Data Hiding Based on Interpolation Techniques
 
+<<<<<<< HEAD
+=======
+
+# 2 Reversible Data Hiding Based on Interpolation Techniques
+
+>>>>>>> 5843994f1b273c4f317c35c655b42fe40b549fa5
 A MATLAB-based implementation of a **Reversible Data Hiding (RDH)** scheme that securely embeds a secret image into a cover image using **image interpolation** and **pixel permutation techniques**. The proposed method enables the complete recovery of both the original cover image and the hidden secret image without any permanent distortion.
 
 ---
@@ -99,6 +109,7 @@ A MATLAB-based implementation of a **Reversible Data Hiding (RDH)** scheme that 
 
 ---
 
+<<<<<<< HEAD
 ## Project Architecture
 
 ```
@@ -127,6 +138,9 @@ Recovered Cover Image + Secret Image
 ```
 
 ---
+=======
+
+>>>>>>> 5843994f1b273c4f317c35c655b42fe40b549fa5
 
 ## Technologies Used
 
@@ -196,10 +210,13 @@ The proposed algorithm provides:
 
 ✔ Accurate extraction of hidden data
 
+<<<<<<< HEAD
 ✔ Improved embedding capacity using interpolation
 
 ✔ High PSNR and SSIM values
 
+=======
+>>>>>>> 5843994f1b273c4f317c35c655b42fe40b549fa5
 ---
 
 ## Applications
@@ -218,6 +235,7 @@ The proposed algorithm provides:
 - Adaptive interpolation algorithms
 - Color image support
 - Multi-image embedding
+<<<<<<< HEAD
 - Deep Learning-based reversible data hiding
 - GPU acceleration
 - Real-time implementation
@@ -226,6 +244,12 @@ The proposed algorithm provides:
 
 
 ##  Author
+=======
+
+---
+
+## 👤 Author
+>>>>>>> 5843994f1b273c4f317c35c655b42fe40b549fa5
 
 **Sunkari Mula Vishnu Veeranjan**  
 [*([Mula Sunkari](https://github.com/MULAVISHNU))*]
