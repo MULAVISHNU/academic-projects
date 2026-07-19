@@ -1,6 +1,6 @@
 # academic-projects
 
-Welcome to my projects portfolio. This repository serves as a centralized archive of comprehensive project reports, and technical documentation
+Welcome to my projects portfolio. This repository serves as a centralized archive of my academic project reports, and technical documentation
 
 
 # 1. Secure Wireless Controller for Handheld Operator of Traffic Control System
@@ -59,9 +59,7 @@ A secure, Arduino‑based wireless system that allows authorized traffic police 
 
 **Sunkari Mula Vishnu Veeranjan**  
 [*([Mula Sunkari](https://github.com/MULAVISHNU))*]
-# 2 Reversible Data Hiding Based on Interpolation Techniques
 
-=======
 
 # 2 Reversible Data Hiding Based on Interpolation Techniques
 
