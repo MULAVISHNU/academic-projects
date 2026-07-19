@@ -2,8 +2,7 @@
 
 Welcome to my projects portfolio. This repository serves as a centralized archive of comprehensive project reports, and technical documentation
 
-### 1. Secure Wireless Controller for Handheld Operator of Traffic Control System
-# Secure Wireless Traffic Signal Controller
+# 1. Secure Wireless Controller for Handheld Operator of Traffic Control System
 
 A secure, Arduino‑based wireless system that allows authorized traffic police to manually control traffic signals during peak hours. The system integrates fingerprint authentication, IR communication, and an automated barrier mechanism to improve traffic flow and prevent signal jumping.
 
@@ -102,34 +101,7 @@ A MATLAB-based implementation of a **Reversible Data Hiding (RDH)** scheme that 
 
 ---
 
-## Project Architecture
 
-```
-Cover Image
-      │
-      ▼
-Image Interpolation
-      │
-      ▼
-Pixel Manipulation
-      │
-      ▼
-Secret Image → Binary Conversion
-      │
-      ▼
-Pixel Permutation
-      │
-      ▼
-Stego Image
-      │
-      ▼
-Data Extraction
-      │
-      ▼
-Recovered Cover Image + Secret Image
-```
-
----
 
 ## Technologies Used
 
@@ -199,10 +171,6 @@ The proposed algorithm provides:
 
 ✔ Accurate extraction of hidden data
 
-✔ Improved embedding capacity using interpolation
-
-✔ High PSNR and SSIM values
-
 ---
 
 ## Applications
@@ -221,9 +189,6 @@ The proposed algorithm provides:
 - Adaptive interpolation algorithms
 - Color image support
 - Multi-image embedding
-- Deep Learning-based reversible data hiding
-- GPU acceleration
-- Real-time implementation
 
 ---
 
