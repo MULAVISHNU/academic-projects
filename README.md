@@ -206,7 +206,7 @@ The proposed algorithm provides:
 
 
 
-# 3.Hybrid Linkwitz–Riley 4 Crossover Filter Design
+# 3.Hybrid Linkwitz–Riley 4 Crossover Filter Design (https://github.com/Sriramrepaka/MCD_VS.git)
 
 A complete analog IC design project implementing a **4th-order Linkwitz–Riley (LR4) active crossover filter** using a **custom-designed Two-Stage Miller Operational Transconductance Amplifier (OTA)**. The project covers behavioral modeling, transistor-level circuit design, gm/Id-based sizing, filter integration, simulation, and verification using the **IHP SG13G2 open-source PDK**.
 
