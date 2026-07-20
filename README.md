@@ -373,13 +373,9 @@ The design was validated through:
 
 ## Authors
 
-**Sriram Repaka**
+**Sriram Repaka** (Hochschule Bremen)
 
-Hochschule Bremen
-
-**Mula Vishnu Sunkari**
-
-Hochschule Bremen
+**Mula Vishnu Sunkari** (Hochschule Bremen)
 
 ---
 
